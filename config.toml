@@ -1,0 +1,127 @@
+baseurl = "https://yyonkim.github.io/"
+languageCode = "en-us"
+title = "Yonkim's library"
+theme = "blackburn"
+author = "Yon kim"
+copyright = "&copy; 2021. All rights reserved."
+canonifyurls = true
+paginate = 10
+
+[blackfriday]
+    extensions = ["hardLineBreak"]
+ 
+
+[indexes]
+  tag = "tags"
+  topic = "topics"
+
+[params]
+  # Shown in the home page
+  subtitle = "Yonkim's study logs"
+  brand = "library"
+  # googleAnalytics = "poiqqaz"
+  disqus = "yonkim"
+  dateFormat = "02 Jan 2006"
+  custom_css = ["css/button.css"]
+
+
+[menu]
+  # Shown in the side menu.
+  [[menu.main]]
+    name = "Home"
+    pre = "<i class='fa fa-home fa-fw'></i>"
+    weight = 1
+    identifier = "home"
+    url = "/"
+  [[menu.main]]
+    name = "About"
+    pre = "<i class='fa fa-user fa-fw'></i>"
+    weight = 2
+    identifier = "about"
+    url = "/about/"
+  [[menu.main]]
+    name = "All Posts"
+    pre = "<i class='fa fa-list fa-fw'></i>"
+    weight = 3
+    identifier = "post"
+    url = "/post/"
+    
+    
+  [[menu.main]]
+    name = "OS"
+    pre = "<i class='fas fa-chalkboard fa-fw'></i>"
+    weight = 4
+    identifier = "OS"
+    url = "/topics/OS/"
+#  [[menu.main]]
+#    name = "Network"
+#    pre = "<i class='fas fa-file-code fa-fw'></i>"
+#    weight = 5
+#    identifier = "Network"
+#    url = "/topics/Network/"
+   [[menu.main]]
+    name = "Language"
+    pre = "<i class='fa fa-book fa-fw'></i>"
+    weight = 6
+    identifier = "Language"
+    url = "/topics/Language/"
+  [[menu.main]]
+    name = "Kubernetes"
+    pre = "<i class='fas fa-puzzle-piece fa-fw'></i>"
+    weight = 7
+    identifier = "Kubernetesg"
+    url = "/topics/Kubernetes/"
+  [[menu.main]]
+    name = "Docker"
+    pre = "<i class='far fa-file-excel fa-fw'></i>"
+    weight = 8
+    identifier = "Docker"
+    url = "/topics/Docker/"
+  [[menu.main]]
+    name = "Troubleshooting"
+    pre = "<i class='fas fa-code fa-fw'></i>"
+    weight = 9
+    identifier = "Troubleshooting"
+    url = "/topics/Troubleshooting/"
+    
+    
+    
+    
+  [[menu.main]]
+    name = "Tags"
+    pre = "<i class='fa fa-tags fa-fw'></i>"
+    identifier = "tag"
+    weight = 300
+    url = "/tags/"
+
+
+[social]
+  # Link your social networking accouns to the side menu
+  # by entering your username or ID.
+  # twitter="*"
+  # gnusocial="*"
+  # facebook="*"
+  # weibo="*"
+  # tumblr="*"
+  # instagram="*"
+  # flickr="*"
+  # photo500px="*"
+  # pinterest="*"
+  # youtube="*"
+  # vimeo="*"
+  # vine="*"
+  # slideshare="*"
+  # linkedin="*"
+  # xing="*"
+  # reddit="*"
+  # hackernews="*"
+  github="yyonkim"
+  # gitlab="*"
+  # bitbucket="*"
+  # stackoverflow="*"
+  # serverfault="*"
+  # steam="*"
+  # mobygames="*"
+  # lastfm="*"
+  # discogs="*"
+  # keybase="*"
