@@ -1,6 +1,6 @@
 baseurl = "https://yyonkim.github.io/"
 languageCode = "en-us"
-title = "Yonkim's library"
+title = "Yonkim's Study Logs"
 theme = "blackburn"
 author = "Yon kim"
 copyright = "&copy; 2021. All rights reserved."
@@ -17,8 +17,8 @@ paginate = 10
 
 [params]
   # Shown in the home page
-  subtitle = "Yonkim's study logs"
-  brand = "library"
+  subtitle = "Yonkim"
+  brand = "study-logs"
   # googleAnalytics = "poiqqaz"
   disqus = "yonkim"
   dateFormat = "02 Jan 2006"
