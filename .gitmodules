@@ -1,10 +1,10 @@
 [submodule "themes/blackburn"]
 	path = themes/blackburn
 	url = https://github.com/yoshiharuyamashita/blackburn.git
+[submodule "content/post"]
+	path = content/post
+	url = https://github.com/yyonkim/study-logs.git
 [submodule "public"]
 	path = public
 	url = https://github.com/yyonkim/yyonkim.github.io.git
 	branch = main
-[submodule "content/post"]
-	path = content/post
-	url = https://github.com/yyonkim/study-logs.git
