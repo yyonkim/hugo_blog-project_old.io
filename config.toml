@@ -46,19 +46,20 @@ paginate = 10
     identifier = "posts"
     url = "/post/"
 
-  [[menu.main]]
-    name = "Search"
-    pre = "<i class='fa fa-list fa-fw'></i>"
-    weight = 4
-    identifier = "search"
-    url = "/search/"
-    
 #  [[menu.main]]
-#    name = "OS"
-#    pre = "<i class='fas fa-chalkboard fa-fw'></i>"
+#    name = "Search"
+#    pre = "<i class='fa fa-list fa-fw'></i>"
 #    weight = 4
-#    identifier = "OS"
-#    url = "/topics/OS/"
+#    identifier = "search"
+#    url = "/search/"
+    
+  [[menu.main]]
+    name = "OS"
+    pre = "<i class='fas fa-chalkboard fa-fw'></i>"
+    weight = 4
+    identifier = "OS"
+    url = "/topics/OS/"
+    
 #  [[menu.main]]
 #    name = "Network"
 #    pre = "<i class='fas fa-file-code fa-fw'></i>"
@@ -131,3 +132,4 @@ paginate = 10
   # lastfm="*"
   # discogs="*"
   # keybase="*"
+
