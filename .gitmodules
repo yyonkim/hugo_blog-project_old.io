@@ -5,3 +5,6 @@
 	path = public
 	url = https://github.com/yyonkim/yyonkim.github.io.git
 	branch = main
+[submodule "content/posts/content/posts"]
+	path = content/posts/content/posts
+	url = https://github.com/yyonkim/study-logs.git
