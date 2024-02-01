@@ -55,7 +55,7 @@ paginate = 10
     
   [[menu.main]]
     name = "OS"
-    pre = "<i class='fab fa-linux'></i>"
+    pre = "<i class='fas fa-terminal'></i>"
     weight = 4
     identifier = "OS"
     url = "/topics/OS/"
@@ -74,23 +74,28 @@ paginate = 10
     url = "/topics/Language/"
   [[menu.main]]
     name = "Kubernetes"
-    pre = "<i class='fas fa-puzzle-piece fa-fw'></i>"
+    pre = "<i class='fab fa-kickstarter-k'></i>"
     weight = 7
     identifier = "Kubernetesg"
     url = "/topics/Kubernetes/"
   [[menu.main]]
     name = "Docker"
-    pre = "<i class='far fa-file-excel fa-fw'></i>"
+    pre = "<i class='fab fa-docker'></i>"
     weight = 8
     identifier = "Docker"
     url = "/topics/Docker/"
   [[menu.main]]
     name = "Troubleshooting"
-    pre = "<i class='fas fa-code fa-fw'></i>"
+    pre = "<i class='fas fa-wrench'></i>"
     weight = 9
     identifier = "Troubleshooting"
     url = "/topics/Troubleshooting/"
-    
+  [[menu.main]]
+    name = "Other"
+    pre = "<i class='fas fa-code fa-fw'></i>"
+    weight = 10
+    identifier = "Other"
+    url = "/topics/Other/"
     
     
     
