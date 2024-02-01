@@ -5,6 +5,7 @@
   <h2>{{ .Site.Params.subtitle }}</h2>
 </div>
 
+
 <div class="content">
   {{ range ( .Paginate (where .Site.RegularPages "Type" "post")).Pages }}
     {{ .Render "summary"}}
