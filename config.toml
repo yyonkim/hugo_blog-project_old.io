@@ -3,7 +3,7 @@ languageCode = "en-us"
 title = "Yonkim's Study Logs"
 theme = "blackburn"
 author = "Yon kim"
-copyright = "&copy; 2021. All rights reserved."
+copyright = "&copy; 2024. All rights reserved."
 canonifyurls = true
 paginate = 10
 
@@ -18,7 +18,7 @@ paginate = 10
 [params]
   # Shown in the home page
   subtitle = "Yonkim"
-  brand = "study-logs"
+  brand = "YonKim Study-logs"
   # googleAnalytics = "poiqqaz"
   disqus = "yonkim"
   dateFormat = "02 Jan 2006"
@@ -55,7 +55,7 @@ paginate = 10
     
   [[menu.main]]
     name = "OS"
-    pre = "<i class='fas fa-chalkboard fa-fw'></i>"
+    pre = "<i class='fas fa-linux fa-fw'></i>"
     weight = 4
     identifier = "OS"
     url = "/topics/OS/"
