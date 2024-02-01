@@ -55,7 +55,7 @@ paginate = 10
     
   [[menu.main]]
     name = "OS"
-    pre = "<i class='fas fa-linux fa-fw'></i>"
+    pre = "<i class="fa fa-linux" aria-hidden="true"></i>"
     weight = 4
     identifier = "OS"
     url = "/topics/OS/"
